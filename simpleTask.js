@@ -19,17 +19,18 @@ burgerPrice >= 500 ? console.log('you will get a free coke') : console.log('you 
 
 
 let BMI = 23;
+let weight;
 
 if(BMI < 18.5){
-    console.log('you are underweight')
+    weight = 'you are underweight'
 }else if(BMI >= 18.5 && BMI <=24.9){
-    console.log('you are normal')
+    weight = 'you are normal'
 }
 else if(BMI >=25 && BMI <=29.9){
-    console.log('you are overweight')
+    weight = 'you are overweight'
 }
 else{
-    console.log('you are obese')
+    weight = 'you are obese'
 }
 
 // simpleTask with nested ternary statement
