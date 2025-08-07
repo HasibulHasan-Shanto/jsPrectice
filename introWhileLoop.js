@@ -1,6 +1,8 @@
-let num = 0
+let num = 100
 
-while(num <= 100000){
-    console.log(num)
+while(num <= 1000){
+    console.log('oiiiiii')
     num++;
 }
+
+
